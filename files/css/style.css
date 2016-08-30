@@ -1,0 +1,89 @@
+body {
+font-family: "Lato", Helvetica, Arial, Verdana, sans-serif;
+background: #B4B8AB;
+color: black;
+}
+
+#background {
+	background: url("../img/cleanback.jpg");
+	position: absolute;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-size: cover;
+	overflow: hidden;
+}
+
+.transparent{
+	background:rgba(255,255,255,0.1);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-size: cover;
+	overflow: scroll;
+}
+
+#logo {
+	margin: 0 auto;
+	padding: 1em;
+	border: 5px solid black;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	margin-top: 20px;
+	//display: none;
+}
+
+#banner {
+	font-size: 60px;
+	color: white;
+	//background-color: #FAD086
+}
+
+.navbar-item {
+	float: left;
+	display: block;
+	padding-top: 16px;
+	padding-right: 20px;
+	padding-bottom: 16px;
+	padding-left: 20px;
+	margin-right: 5em;
+	text-align: center;
+	text-decoration: none;
+	width: 150px;
+	text-transform: uppercase;
+	background-color: FAD086
+}
+
+.navbar-item a {
+	text-decoration: none;
+	color: #FEFEFF;
+	margin-left: auto;
+	margin-right: auto;
+	margin: 0 auto;
+}
+
+.img-scaled {
+	display: block;
+	margin: 0 auto;
+	max-height: 200px;
+	max-width: auto;
+	width: auto;
+	height: auto;
+}
+
+.img-scaled2{
+	max-height: 200px;
+	max-width: auto;
+	width: auto;
+	height: auto;
+}
+#imagewrap{
+	white-space: wrap;
+	text-align: center;
+}
