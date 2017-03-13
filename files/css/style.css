@@ -119,9 +119,9 @@ color: black;
 	color: white;
 	text-decoration: none;
 	font-weight: 900;
-	margin-left: auto;
+	/*margin-left: auto;
 	margin-right: auto;
-	margin: 0 auto;
+	margin: 0 auto;*/
 }
 
 .img-scaled {
